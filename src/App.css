@@ -1,111 +1,95 @@
-* {
-  box-sizing: border-box;
-  margin: 0px;
-  padding: 0px;
+@import url('https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@300;600&display=swap');
+
+html{
+  font-family: 'Hind Siliguri';
 }
-#root {
+
+
+/* Theme */
+.dark{
+  background-color: #333;
+  color: white;
   height: 100%;
-}
-html,
-body {
-  min-height: 100vh;
-  height: 100%;
-  height: 100%;
-  transition: background-color 0.25s ease-in-out;
-}
-.light{
+
+  }
+body{
+  margin: 0;
+  padding:0;
   background-color: white;
   color: #333;
   height:100%;
   height: 100%;
   transition: background-color 0.25s ease-in-out;
-  }
-
-.dark{
-background-color: #333;
-color: white;
-height: 100%;
 }
 
-/* Rounded sliders */
-.slider.round {
-  border-radius: 34px;
+/* Dark & Light theme toggle button */
+.toggleContainer{
+  display: flex;
+  justify-content: flex-end;
+  padding: 30px;
 }
-
-.slider.round:before {
+.switchContainer{
+  width:60px;
+  height:31px;
+  border-radius: 16px;
+  background-color: #D2D2CF;
+  position: relative;
+}
+.switchCircle{
+  width: 25px;
+  height: 25px;
+  border-radius: 15px;
+  background-color:#FBFBFA ;
+  position: absolute;
+  top: 3px;
+  left: 5px;
+}
+.moon{
+  width: 15px;
+  height: 15px;
   border-radius: 50%;
-}
-.switch-checkbox {
-  padding: 10px;
-}
-.switch {
+  background-color: transparent;
+  box-shadow: -4px 3px 0 0 #939391 ;
   position: relative;
-  display: inline-block;
-  width: 60px;
-  height: 14px;
+  left:42px;
+  top: 5px;
+}
+.dark .switchCircle {
+  transform: translateX(25px)
 }
 
-.switch input {
-  opacity: 0;
-  width: 0;
-  height: 0;
-}
+/* Intro/Hero component CSS */
 
-.switch {
-  position: relative;
-  display: inline-block;
-  width: 60px;
-  height: 34px;
+.heroContainer{
+  padding-left: 15%;
+  padding-right: 30%;
+ text-align: left;
+  
 }
-
-.switch input {
-  opacity: 0;
-  width: 0;
-  height: 0;
-}
-
-.slider {
-  position: absolute;
-  cursor: pointer;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  background-color: #ccc;
-  -webkit-transition: 0.4s;
-  transition: 0.4s;
-}
-
-.slider:before {
-  position: absolute;
-  content: "";
-  height: 26px;
-  width: 26px;
-  left: 4px;
-  bottom: 4px;
-  background-color: white;
-  -webkit-transition: 0.4s;
-  transition: 0.4s;
-}
-
-input:checked + .slider {
-  background-color: #b7bca2;
-}
-
-input:focus + .slider {
-  box-shadow: 0 0 1px #2196f3;
-}
-
-input:checked + .slider:before {
-  -webkit-transform: translateX(26px);
-  -ms-transform: translateX(26px);
-  transform: translateX(26px);
-}
-span {
+/* .heading{
+  display: flex;
+  justify-content: space-between;
+  padding-right: 300px;
+} */
+.subheading{
+  display: flex;
+  justify-content: left;
   font-size: 40px;
+  line-height: 60px;
+  margin-right: 70px;
 }
 
-.container{
-   padding-left: 93%;
- padding-top: 5vh;
+.name{
+  color: #C66565;
+  font-weight: bold;
 }
+.git{
+  max-width:10%;
+  height:auto;
+}
+.linkedin{
+  max-width:10%;
+  height:auto;
+}
+
+
