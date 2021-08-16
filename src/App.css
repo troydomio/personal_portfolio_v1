@@ -84,11 +84,15 @@ body{
   font-weight: bold;
 }
 .git{
-  max-width:10%;
+  max-width:25%;
   height:auto;
 }
 .linkedin{
-  max-width:10%;
+  max-width:25%;
+  height:auto;
+}
+.youtube{
+  max-width:25%;
   height:auto;
 }
 
