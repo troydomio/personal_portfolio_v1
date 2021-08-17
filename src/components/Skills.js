@@ -3,10 +3,11 @@ import React from 'react'
 const Skills = () => {
     
     return (
-        
-        <div className="skillsContainer">
-                <div className="skill">
-                    <ul><span className="ul">LANGUAGES</span>
+        <div> 
+            <p className="skills">SKILLS</p>
+                <div className="skillsContainer">
+                    <div className="skill">
+                     <ul><span className="ul">LANGUAGES</span>
                       <li>JavaScript (ES6)</li>
                       <li>TypeScript</li>
                       <li>HTML</li>
@@ -14,15 +15,15 @@ const Skills = () => {
                       <li>SQL</li>
                     </ul>
                 </div>
-                <div className="skill">
-                <ul><span className="ul">FRAMEWORKS</span>
+                 <div className="skill">
+                    <ul><span className="ul">FRAMEWORKS</span>
                       <li>React</li>
                       <li>Ruby on Rails</li>
                       <li>Wordpress</li>
                     </ul>
-                </div>
+                 </div>
                 <div className="skill">
-                <ul><span className="ul">TOOLS</span>
+                    <ul><span className="ul">TOOLS</span>
                       <li>Zsh</li>
                       <li>Bash</li>
                       <li>Git & Github</li>
@@ -31,6 +32,7 @@ const Skills = () => {
                     </ul>
                 </div>
             </div>
+         </div>
             
   
       
