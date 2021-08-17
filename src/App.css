@@ -60,25 +60,17 @@ body{
 
 /* Intro/Hero component CSS */
 
-.heroContainer{
-  padding-left: 15%;
-  padding-right: 30%;
- text-align: left;
-  
-}
-/* .heading{
-  display: flex;
-  justify-content: space-between;
-  padding-right: 300px;
-} */
+
+
 .subheading{
   display: flex;
   justify-content: left;
   font-size: 40px;
+  width: 87%;
   line-height: 60px;
-  margin-right: 70px;
+  padding: 1%;
+  margin: 1%;
 }
-
 .name{
   color: #C66565;
   font-weight: bold;
@@ -96,4 +88,54 @@ body{
   height:auto;
 }
 
+/* Skills section*/
+ .skillsContainer{
+display: inline-flex;
+justify-content: center;
+  
+} 
+li{ 
+ list-style-type: none;
+}
+/* .lang{
+  padding-left: 20vh;
+}
+.frame{
+ padding-left: 40vh;
+}
+.tool{
+  padding-left: 65%;
+  
+} */
+.skillsText{
 
+
+}
+.ul{
+  font-weight: bold;
+}
+.skills{
+  font-size: 50px;
+  margin-top: -137px;
+  margin-left: 3vh;
+  color:#C66565;
+  font-weight: bold;
+}
+.mainskills{
+  margin-top: 10%;
+}
+.skill{
+  /* display: flex;
+  flex-wrap: wrap; */
+  width: 98%;
+  
+}
+
+@media only screen and (min-width:970px) {
+  .heroContainer{
+    padding-left: 15%;
+    padding-right: 30%;
+   text-align: left;
+   
+  }
+}

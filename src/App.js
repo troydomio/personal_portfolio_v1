@@ -11,6 +11,7 @@ function App() {
   <div>
     <ToggleTheme/>
     <Hero/>
+    <Skills/>
   </div> 
   );
 }
