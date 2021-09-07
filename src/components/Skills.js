@@ -9,7 +9,7 @@ const Skills = () => {
                     <div className="skill">
                      <ul><span className="ul">LANGUAGES</span>
                       <li>JavaScript (ES6)</li>
-                      <li>TypeScript</li>
+                      <li>Ruby</li>
                       <li>HTML</li>
                       <li>CSS</li>
                       <li>SQL</li>
@@ -19,6 +19,7 @@ const Skills = () => {
                     <ul><span className="ul">FRAMEWORKS</span>
                       <li>React</li>
                       <li>Ruby on Rails</li>
+                      <li>Sinatra</li>
                       <li>Wordpress</li>
                     </ul>
                  </div>
@@ -28,7 +29,7 @@ const Skills = () => {
                       <li>Bash</li>
                       <li>Git & Github</li>
                       <li>Chrome Dev Tools</li>
-                      <li>Post</li>
+                      <li>Postman</li>
                     </ul>
                 </div>
             </div>

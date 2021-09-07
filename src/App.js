@@ -1,5 +1,5 @@
 import './App.css';
-import Hero from './components/Intro';
+import Hero from './components/Hero';
 import Projects from './components/Projects'
 import Skills from './components/Skills'
 import Footer from './components/Footer';
@@ -12,6 +12,8 @@ function App() {
     <ToggleTheme/>
     <Hero/>
     <Skills/>
+    {/* <Projects/> */}
+    {/* <Footer/> */}
   </div> 
   );
 }
