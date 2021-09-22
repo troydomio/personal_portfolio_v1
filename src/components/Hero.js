@@ -14,7 +14,7 @@ const Hero = () => {
                 <br/>
                 <a href="https://github.com/troydomio" target="_blank"><img className="git" src={github} ></img></a>
           <a href="https://www.linkedin.com/in/troydomio/" target="_blank"><img className="linkedin" src={linkedin} ></img></a>
-          <button>Resume</button>
+          {/* <button>Resume</button> */}
           {/* <a href="https://www.youtube.com/channel/UC6IohvICPLUWWUmaDadtF_w" target="_blank"><img className="youtube" src={youtube} ></img></a> */}
           </p>  
             </div>
