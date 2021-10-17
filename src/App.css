@@ -5,14 +5,16 @@
 html{
   font-family: 'Hind Siliguri';
 }
-
+a{
+  text-decoration: none;
+  color: #333;
+}
 
 /* Theme */
 .dark{
   background-color: #333;
   color: white;
   height: 100%;
-
   }
 body{
   margin: 0;
@@ -25,19 +27,50 @@ body{
 }
 
 /* Dark & Light theme toggle button */
-.toggleContainer{
+ .toggleContainer{
   display: flex;
   justify-content: flex-end;
   padding: 30px;
 }
+/* .toggleContainer{
+  display: flex;
+  justify-content: flex-end;
+  padding: 30px;
+}*/
 .switchContainer{
+  width:80px;
+  height:31px;
+  padding-left: 15%;
+  border-radius: 16px;
+  background-color: #D2D2CF;
+  position: relative;
+  letter-spacing: 2px;}
+
+  .switchContainer2{
+    width:100px;
+    height:31px;
+    border-radius: 16px;
+    background-color: #D2D2CF;
+    position: relative;
+    letter-spacing: 2px;
+  margin-left: 5%;}
+
+.switchContainer:hover{
+  transform: translateY(-7px);
+  transition: 0.3s;
+}
+.switchContainer2:hover{
+  transform: translateY(-7px);
+  transition: 0.3s;
+}
+/* .switchContainer{
   width:60px;
   height:31px;
   border-radius: 16px;
   background-color: #D2D2CF;
   position: relative;
-}
-.switchCircle{
+} */
+/* .switchCircle{
   width: 25px;
   height: 25px;
   border-radius: 15px;
@@ -45,8 +78,8 @@ body{
   position: absolute;
   top: 3px;
   left: 5px;
-}
-.moon{
+} */
+/* .moon{
   width: 15px;
   height: 15px;
   border-radius: 50%;
@@ -55,10 +88,17 @@ body{
   position: relative;
   left:42px;
   top: 5px;
+} */
+.moon{
+  margin-left: 3%;
 }
-.dark .switchCircle {
+.moon2{
+  margin-left: 16%;
+}
+
+/* .dark .switchCircle {
   transform: translateX(25px)
-}
+} */ */
 
 /* Intro/Hero component CSS */
 
@@ -137,3 +177,8 @@ li{
      
     }
 }
+
+
+
+
+
