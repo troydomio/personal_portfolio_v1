@@ -14,24 +14,21 @@ function App() {
   return (
   <div>
     <ToggleTheme/>
-    <Router>
-      <Switch>
-      <Route exact path="/">
+    
+      
       <Portfolio/>
-      </Route>
-      </Switch>
-      <Switch>
+      <Projects/>
+      {/* <Switch>
       <Route path="/projects" activeClassName="switchContainer2">
       <Projects/>
       </Route>
-      </Switch>
+      </Switch> */}
     
     {/* <ProjectNew/> */}
     {/* <Hero/> */}
     {/* <Skills/>
     <Projects/>
     <Footer/> */}
-    </Router>
   </div> 
   );
 }
