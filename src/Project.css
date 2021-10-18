@@ -177,3 +177,42 @@ project-name{
     line-height: 10%;
     font-family: 'Open Sans', sans-serif;
 }
+
+@media all and (max-width: 500px){
+    .project-container{
+       display: grid;
+    }
+    .heroportfolio{
+        display: grid;
+        height: 10%;
+        margin-top: 0;
+        border: black solid 1px;
+    }
+    .helloportfolio{
+        display: grid;
+        
+   padding-right: 40%;
+   margin-top:700px;
+
+   float: left;
+   justify-content: left;
+   margin-left: 0;
+   border: black solid 1px;
+
+   position:fixed;
+ z-index:1000;
+ height:30px;
+ width:60px;
+ right:0;
+    }
+    
+    .background{
+        background-image: none;
+    }
+    .howdy{
+        font-size: 25px;
+    }
+    .main{
+        display: grid;
+    }
+}

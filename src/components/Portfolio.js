@@ -19,6 +19,7 @@ const Portfolio = () => {
             </div>
             
             </div>
+
             <div className="helloportfolio">
             <p className="howdy">Howdy</p>
             <p>I’m a software engineer specializing in front-end web development & design.</p>
@@ -55,6 +56,7 @@ const Portfolio = () => {
             </p>
            
             </div>
+            
             </div>
         </div>
     )
