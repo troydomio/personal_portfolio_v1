@@ -19,11 +19,13 @@ const Projects = () => {
             </div>
 
             <div className="project-cards">
-            <p>Coming Soon</p>
-            <img className="project-img" src="https://images.unsplash.com/photo-1496262967815-132206202600?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1523&q=80"></img>
+
+            <p>Birthday Coutdown Generator</p>
+            <a href="https://troydomio.github.io/birthdaycountdowntimer/" target="_blank"><img className="project-img" src="https://live.staticflickr.com/65535/51606036175_f85903115f_b.jpg"></img></a>
+            <p>This project is a birthday countdown generator. In order for the countdown to be generated a user must input their birth day, month and year.</p>
             <p></p>
-            {/* <a href="https://troydomio.github.io/newyearscountdown/">DEMO</a>
-            <a href="https://github.com/troydomio/newyearscountdown">CODE</a> */}
+            <a href="https://troydomio.github.io/birthdaycountdowntimer/" className="click" target="_blank">DEMO</a>
+            <a href="https://github.com/troydomio/birthdaycountdowntimer" className="click" target="_blank">CODE</a>
             </div>
 
             <div className="project-cards">
