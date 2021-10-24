@@ -126,22 +126,22 @@ padding-bottom: 10%;
     background-size: cover; */
     background-color: white;
     height: 700px;
+    
   
 
 }
 .project-container{
     /* border: black solid 1px; */
     background-color: white;
-    display: flex;
+    /* display: flex; */
     margin-left: 2%;
     margin-right: 5%;
     padding:2%;
-    /* display: grid; 
-    grid-template-columns: repeat(1, 400px); */
+    display: grid; 
+    grid-template-columns: repeat(3, 400px);
     letter-spacing: 2px;
-   
-    
 }
+
 
 .project-cards{
     background-color: white;
@@ -180,7 +180,8 @@ project-name{
 
 @media all and (max-width: 500px){
     .project-container{
-       display: grid;
+       display: flex;
+       flex-direction: column;
     }
     .heroportfolio{
         display: grid;
