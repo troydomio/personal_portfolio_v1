@@ -27,7 +27,7 @@ const Projects = () => {
             </div>
             
             <div className="project-cards">
-             <p>Birthday Coutdown Generator</p>
+             <p>Birthday Countdown Generator</p>
             <p>JavaScript + CSS + HTML</p>
             <a href="https://troydomio.github.io/birthdaycountdowntimer/" target="_blank"><img className="project-img" src="https://live.staticflickr.com/65535/51606036175_f85903115f_b.jpg"></img></a>
             <p>This project is a birthday countdown generator. In order for the countdown to be generated a user must input their birth day, month and year.</p>

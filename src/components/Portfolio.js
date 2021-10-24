@@ -24,7 +24,7 @@ const Portfolio = () => {
             <p className="howdy">Howdy</p>
             <p>I’m a software engineer specializing in front-end web development & design.</p>
             <div className="buttonsportfolio">
-            <p className="resumeportfolio">Check out my resume!</p>
+            <a href="https://drive.google.com/file/d/1Yuv1sePsU5zFL_UJa7JX1Jb2_5v3RJLg/view?usp=sharing" target="_blank"><p className="resumeportfolio">Check out my resume!</p></a>
             </div>
             <p>As a recent graduate of Flatiron School's Software Engineering program I have worked with many languages, frameworks, and tools such as:
            <div className="skillsportfolio">
