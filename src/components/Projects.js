@@ -8,8 +8,18 @@ const Projects = () => {
             
              <div className="project-container">
 
+    <div className="project-cards">
+            <p>GitHub Profile Search</p>
+            <p>React + JavaScript + CSS + GitHub API</p>
+            <a href="https://troydomio.github.io/githubprofileapp/" target="_blank" ><img className="project-img" src="https://live.staticflickr.com/65535/51633224482_3e291117be_b.jpg" ></img></a>
+            <p> This project allows user's to look up their stats associated with their GitHub profile. 
+ </p>
+            <a href="https://troydomio.github.io/githubprofileapp/"  target="_blank" className="click">DEMO</a>
+            <a href="https://github.com/troydomio/githubprofileapp" className="click" target="_blank" >CODE</a>
+            </div>
+
              <div className="project-cards">
-            <p>Potato Games</p>
+            <p>Game Collection</p>
             <p>React + Rails</p>
             <a href="https://murmuring-ridge-09826.herokuapp.com/" target="_blank" ><img className="project-img" src="https://live.staticflickr.com/65535/51624734689_2b4d3977d3_b.jpg" ></img></a>
             <p>This project is a CRUD (create, read, update, delete) full-stack application where users can perform all of the basic operations of persistent storage. </p>
