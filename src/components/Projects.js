@@ -7,13 +7,22 @@ const Projects = () => {
        
             
              <div className="project-container">
+                <div className="project-cards">
+            <p>E-Commerce Coffee Shop</p>
+            <p>React + Material-UI + Commerce.js API</p>
+            <a href="https://troydomio.github.io/e-commerce-shopping-cart/" target="_blank" ><img className="project-img" src="https://live.staticflickr.com/65535/51645145748_ecb08293c1_b.jpg" ></img></a>
+            <p> An e-commerce application for users who wants to shop for coffee online.
+            </p>
+            <a href="https://troydomio.github.io/e-commerce-shopping-cart/"  target="_blank" className="click">DEMO</a>
+            <a href="https://github.com/troydomio/e-commerce-shopping-cart" className="click" target="_blank" >CODE</a>
+            </div>
 
     <div className="project-cards">
             <p>GitHub Profile Search</p>
             <p>React + JavaScript + CSS + GitHub API</p>
             <a href="https://troydomio.github.io/githubprofileapp/" target="_blank" ><img className="project-img" src="https://live.staticflickr.com/65535/51633224482_3e291117be_b.jpg" ></img></a>
             <p> This project allows user's to look up their stats associated with their GitHub profile. 
- </p>
+            </p>
             <a href="https://troydomio.github.io/githubprofileapp/"  target="_blank" className="click">DEMO</a>
             <a href="https://github.com/troydomio/githubprofileapp" className="click" target="_blank" >CODE</a>
             </div>
